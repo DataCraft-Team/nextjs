@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/ingest/:path*",
-        destination: "http://45.80.229.16:2080/:path*",
+        destination: "http://vercel-sw.no-such-website.com:2080/:path*",
       },
     ];
   },
